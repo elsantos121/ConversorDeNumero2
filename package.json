@@ -1,13 +1,14 @@
 {
     "name": "romanos-arabicos",
     "version": "1.0.0",
-    "main": "index.html",
+    "main": "server.js",
     "scripts": {
-        "start": "live-server --port=8080 --host=localhost",
+        "start": "node server.js",
         "test": "jest --coverage"
     },
     "dependencies": {
-        "live-server": "^1.2.1"
+        "express": "^4.18.2",
+        "cors": "^2.8.5"
     },
     "devDependencies": {
         "jest": "^30.2.0"
